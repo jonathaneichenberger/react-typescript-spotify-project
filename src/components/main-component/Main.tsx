@@ -1,14 +1,12 @@
 import './Main.css'
+import TopList from "./top-list-component/TopList"
+import BottomList from "./bottom-list-component/BottomList"
 
 const Main = () => {
   return (
     <div className="main">
-      <div className="item-list">
-
-      </div>
-      <div className="item-list">
-        
-      </div>
+      <TopList />
+      <BottomList />
     </div>
   );
 };
