@@ -1,3 +1,4 @@
+/* Pré-definições */
 :root {
   --green-50: hsl(141deg 75% 90%);
   --green-100: hsl(141deg 75% 85%);
@@ -53,3 +54,5 @@ img {
   flex-direction: column;
   min-height: 100svh;
 }
+
+/* Header */
